@@ -2,26 +2,28 @@ import React from "react";
 import { Platform, Text, View } from "react-native";
 import { StyleSheet } from "react-native-unistyles";
 
-import { Tabs, TabList, TabTrigger, TabSlot } from "expo-router/ui";
-import HomeScreen from "./index";
+// import { Tabs, TabList, TabTrigger, TabSlot } from "expo-router/ui";
+import { Tabs } from "expo-router";
+// import HomeScreen from "./index";
 
 export default function TabLayout() {
-  return (
-    <Tabs>
-      <View style={{ flex: 1 }}>
-        <HomeScreen />
-        <TabSlot />
-      </View>
-      <TabList style={styles.tabList}>
-        <TabTrigger href="/" name="home">
-          <Text>Home</Text>
-        </TabTrigger>
-        <TabTrigger href="/explore" name="explore">
-          <Text>Explore</Text>
-        </TabTrigger>
-      </TabList>
-    </Tabs>
-  );
+  return <Tabs />;
+  // return (
+  //   <Tabs>
+  //     {/* <View style={{ flex: 1 }}> */}
+  //     {/* <HomeScreen /> */}
+  //     <TabSlot />
+  //     {/* </View> */}
+  //     <TabList style={styles.tabList}>
+  //       <TabTrigger href="/" name="home">
+  //         <Text>Home</Text>
+  //       </TabTrigger>
+  //       <TabTrigger href="/explore" name="explore">
+  //         <Text>Explore</Text>
+  //       </TabTrigger>
+  //     </TabList>
+  //   </Tabs>
+  // );
 }
 
 const styles = StyleSheet.create((theme, rt) => ({
