@@ -35,8 +35,8 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "react-native-edge-to-edge",
-      "expo-font"
+      "expo-font",
+      "react-native-edge-to-edge"
     ],
     "experiments": {
       "typedRoutes": true

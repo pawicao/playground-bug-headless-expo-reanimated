@@ -1,7 +1,6 @@
-import { Button, View } from "react-native";
+import { Button, View, StyleSheet } from "react-native";
 import { useState } from "react";
 import Animated, { ZoomIn, ZoomOut } from "react-native-reanimated";
-import { StyleSheet } from "react-native-unistyles";
 
 export default function HomeScreen() {
   const [isAnimatedElementVisible, setIsAnimatedElementVisible] =

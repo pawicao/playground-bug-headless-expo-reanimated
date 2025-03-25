@@ -1,29 +1,9 @@
-// import { fontWeightMap } from "./font";
 import {
   lightTheme as lightThemeUnistyles,
   otherTheme as otherThemeUnistyles,
 } from "./unistyles";
 import { DefaultTheme } from "@react-navigation/native";
 import type { Theme } from "@react-navigation/native";
-
-// const fonts = {
-//   regular: {
-//     fontFamily: fontWeightMap["400"].fontFamily,
-//     fontWeight: "400",
-//   },
-//   medium: {
-//     fontFamily: fontWeightMap["500"].fontFamily,
-//     fontWeight: "500",
-//   },
-//   bold: {
-//     fontFamily: fontWeightMap["700"].fontFamily,
-//     fontWeight: "700",
-//   },
-//   heavy: {
-//     fontFamily: fontWeightMap["900"].fontFamily,
-//     fontWeight: "900",
-//   },
-// } as const;
 
 export const lightTheme: Theme = {
   dark: false,
